@@ -7,6 +7,7 @@
     <title>Slider with pure JS</title>
     <meta name="description" content="slider with pure js">
     <meta name="author" content="Mariusz Najwer">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
     <script src="JS/index.js"></script>
     <link href="CSS/index.css" rel="stylesheet" />
 
@@ -14,7 +15,25 @@
 
 <body>
 
-    hello world
+    <main>
+        <section class="slider">
+            <header>
+                Mariusz Najwer
+            </header>
+            <div id="mainBox" class="sliderBox">
+                <div onclick="prev()" class="arrow">Lewo</div>
+                <div class="stage">
+                    <div id="foto1" class="picture animated "></div> 
+                    <div id="foto2" class="picture animated hide"></div>
+                  </div>
+                <div onclick="next()" class="arrow">Prawo</div>
+            </div>
+
+        </section>
+        <footer>
+            Mariusz
+        </footer>
+    </main>
 
 </body>
 
