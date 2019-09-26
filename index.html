@@ -7,31 +7,36 @@
     <title>Slider with pure JS</title>
     <meta name="description" content="slider with pure js">
     <meta name="author" content="Mariusz Najwer">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+    <script src="https://kit.fontawesome.com/084a192b8b.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="JS/index.js"></script>
     <link href="CSS/index.css" rel="stylesheet" />
 
 </head>
 
-<body>
+<body onload="start()">
 
     <main>
         <section class="slider">
             <header>
-                Mariusz Najwer
+                <nav>
+                    <div class="navBox"><a target="_blank" href="https://najwer23.github.io/">https://najwer23.github.io/</a></div>
+                    <div class="navBox">Mariusz Najwer</div>
+                    <div class="navBox">26.09.2019</div>
+                </nav>
             </header>
             <div id="mainBox" class="sliderBox">
-                <div onclick="prev()" class="arrow">Lewo</div>
+                <div onclick="prev()" class="arrow"><i class="fas fa-chevron-left"></i></div>
                 <div class="stage">
-                    <div id="foto1" class="picture animated "></div> 
+                    <div id="foto1" class="picture animated "></div>
                     <div id="foto2" class="picture animated hide"></div>
-                  </div>
-                <div onclick="next()" class="arrow">Prawo</div>
+                </div>
+                <div onclick="next()" class="arrow"><i class="fas fa-chevron-right"></i></div>
             </div>
 
         </section>
         <footer>
-            Mariusz
+            <div id="description" class="description"></div>
         </footer>
     </main>
 
