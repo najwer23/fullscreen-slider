@@ -1,6 +1,6 @@
 
 let idPicture = 0;
-let pictures = ["pic1","pic2", "pic4", "pic5", "pic6", "pic7", "pic8", "pic9", "pic10", "pic11"];
+let pictures = ["pic1","pic2", "pic5", "pic6", "pic7", "pic8", "pic9", "pic10", "pic11"];
 
 let idPicture2Show = 1;
 let formatPicture = ".jpg";
